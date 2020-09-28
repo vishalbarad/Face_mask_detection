@@ -5,8 +5,17 @@ This project is a part of the CNN Deep learning and Opencv.
 
 Screenshots:
 
-<img src="pic1.png" style="border: 1px solid black;" align=left height=60% width=60%/></br>
-<img src="pic2.png" style="border: 1px solid black;" align=left height=60% width=68%/></br>
+<p align="center">
+<img src="pic1.png" width="600" height="500" style="border: 1px solid black" />
+</p>
+---
+<p align="center">
+<img src="pic2.png" width="600" height="500" style="border: 1px solid black" />
+</p>
+---
+<p align="center">
+<img src="pic3.png" width="600" height="500" style="border: 1px solid black" />
+</p>
 
 ## Project Intro/Objective
 The purpose of this project is to detect whether person has wear mask or not.
