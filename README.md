@@ -6,7 +6,7 @@ This project is a part of the CNN Deep learning and Opencv.
 Screenshots:
 
 <p align="center">
-<img src="pic1.png" style="border: 1px solid black; height:20px; width:20px " />
+<img src="pic1.png" style="border: 1px solid black;" height=10px width=10px/>
 </p>
 
 
