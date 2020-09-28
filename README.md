@@ -3,6 +3,13 @@ This project is a part of the CNN Deep learning and Opencv.
 
 #### -- Project Status: [Completed]
 
+Screenshots:
+
+<p align="center">
+<img src="Screenshot 2020-09-28 at 12.53.38 PM.png" style="border: 1px solid black" />
+</p>
+
+
 ## Project Intro/Objective
 The purpose of this project is to detect whether person has wear mask or not.
 
