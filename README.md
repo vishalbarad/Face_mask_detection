@@ -1,6 +1,5 @@
 # Face_mask_detection
 This project is a part of the CNN Deep learning and Opencv.
-Dataset https://drive.google.com/drive/folders/1P3gIgFUMbdl5tSqx1pK385bz4t0mxEvW?usp=sharing
 
 #### -- Project Status: [Completed]
 
@@ -30,6 +29,7 @@ Dataset used by this project is 'https://drive.google.com/drive/folders/1P3gIgFU
 After that i just use 'model checkpoint' callback function to save best model as 'Face_mask_scratch.h5'.
 After that i just create CNN model as follow
 <img src="https://github.com/vishalbarad/Face_mask_detection/blob/master/cnn_scratch.png">
+(Face_mask_detection using transferlearning 'https://github.com/vishalbarad/Face_mask_detection_transferlearning')
 After that i just compile model using 'Adam' optimizer with learning rate=0.01, loss='sparse_categorical_crossentropy'.
 After that i just fit data using 50 epochs.
 At the end i got 98% validation accuracy and 96% training accuracy.
