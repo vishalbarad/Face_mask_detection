@@ -14,23 +14,19 @@ The purpose of this project is to detect whether person has wear mask or not.
 * Model evaluation
 * Predictive Modeling
 
-
 ### Technologies
 * Python
-* Numpy 
-* Pandas
 * jupyter
-* joblib
-* HTML
-* CSS
-* JavaScript
-* Flask
-* Heroku
+* Numpy 
+* Matplotlib
+* tensorflow>=2.1.0
+* keras==2.3.1
 
 ## Project Description
-This is project based on regression ml algorithm. If you know the venue, current over runs and wickets then you simply predict score by just providing the last 5 over runs and wickets.
-Dataset used by this project is 'ipl.csv' downloaded from kaggle. After downloading and importing dataset(in jupyter Notebook) i did data cleaning first like dropping some unnecessary columns, handling missing values, performing one-hot encoding on categorical variables.
-After that i just divided my dataset into dependent and independent features. (Independent features=Venue,runs,wickets,etc.. | Dependent feature=total)
+This is project based on CNN model. 
+Dataset used by this project is 'https://drive.google.com/drive/folders/1P3gIgFUMbdl5tSqx1pK385bz4t0mxEvW?usp=sharing'. Dataset conatins train, test and validation data in each there are two class 'with_mask' and 'without_mask'. After downloading and importing dataset(in Google colab) i did data image augmentation first like rescale image, rotate image, flip image, zoom image etc.
+**Data Augmentation**: It is a way to generate more training data frm our currenet set. It augments the training data by generating new eg via random transformation of existing ones. This way we artificially boost the size of the training set, reducing overfitting.
+After that i just use model checkpoint callback function to save best model.
 After that i just dropped first 5 overs data in every match because first 5 overs are powerplay over ,so i just ignored it.
 After that i split data into training data and testing data.
 After that i perform model selection in which i chose 'Multiplelinear', 'Ridge', 'Lasso', 'Decision tree' and 'Random forest' regression algorithm and count accuracy score so i got
