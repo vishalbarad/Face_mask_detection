@@ -25,6 +25,7 @@ The purpose of this project is to detect whether person has wear mask or not.
 ## Project Description
 This is project based on CNN model. 
 Dataset used by this project is 'https://drive.google.com/drive/folders/1P3gIgFUMbdl5tSqx1pK385bz4t0mxEvW?usp=sharing'. Dataset conatins train, test and validation data in each there are two class 'with_mask' and 'without_mask'. After downloading and importing dataset(in Google colab) i did data image augmentation first like rescale image, rotate image, flip image, zoom image etc.
+
 **Data Augmentation**: It is a way to generate more training data frm our currenet set. It augments the training data by generating new eg via random transformation of existing ones. This way we artificially boost the size of the training set, reducing overfitting.
 After that i just use model checkpoint callback function to save best model.
 After that i just dropped first 5 overs data in every match because first 5 overs are powerplay over ,so i just ignored it.
