@@ -5,9 +5,8 @@ This project is a part of the CNN Deep learning and Opencv.
 
 Screenshots:
 
-<p align="center">
 <img src="pic1.png" style="border: 1px solid black;" align=left height=50%px width=50%px/>
-</p>
+<img src="pic2.png" style="border: 1px solid black;" align=left height=50%px width=50%px/>
 
 
 ## Project Intro/Objective
