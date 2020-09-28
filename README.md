@@ -3,7 +3,7 @@ This project is a part of the CNN Deep learning and Opencv.
 
 #### -- Project Status: [Completed]
 
-Screenshots:
+## Screenshots:
 
 <p align="center">
 <img src="pic1.png" width="600" height="500" style="border: 1px solid black" />
