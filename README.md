@@ -3,7 +3,7 @@ This project is a part of the CNN Deep learning and Opencv.
 
 #### -- Project Status: [Completed]
 
-## Screenshots:
+### Screenshots:
 
 <p align="center">
 <img src="pic1.png" width="600" height="500" style="border: 1px solid black" />
@@ -17,17 +17,18 @@ This project is a part of the CNN Deep learning and Opencv.
 <img src="pic3.png" width="600" height="500" style="border: 1px solid black" />
 </p>
 <hr>
+
 ## Project Intro/Objective
 The purpose of this project is to detect whether person has wear mask or not.
 
-### Methods Used
+## Methods Used
 * Data gathering
 * Data preprocessing
 * Build CNN model
 * Model evaluation
 * Predictive Modeling
 
-### Technologies
+## Technologies
 * Python
 * jupyter
 * Numpy 
